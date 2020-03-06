@@ -78,4 +78,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # Questionnaire-Survey
 Demo Link:   
-http://blooming-island-10550.herokuapp.com
+http://blooming-island-10550.herokuapp.com   
+Test with:   
+user: demo@demo.com   
+pass: 12345678
