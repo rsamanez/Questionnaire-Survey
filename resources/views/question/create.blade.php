@@ -8,7 +8,7 @@
                     <div class="card-header">Create New Question</div>
 
                     <div class="card-body">
-                        <form action="/questionnaires/{{ $questionnaire->id }}/questions" method="post">
+                        <form action="{{ route('questions.store',$questionnaire->id) }}" method="post">
 
                             @csrf
 

@@ -6,9 +6,8 @@
             <div class="col-md-8">
 
                 <h1>{{$questionnaire->title}}</h1>
-
-                <form action="/surveys/{{ $questionnaire->id }}-{{ Str::slug($questionnaire->title) }}" method="post">
-
+                
+                <form action="{{ route('surveys.store',[$questionnaire->id,Str::slug($questionnaire->title)]) }}" method="post">
                     @csrf
 
                     @foreach($questionnaire->questions as $key => $question)

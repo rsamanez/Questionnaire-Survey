@@ -9,9 +9,7 @@
 
                     <div class="card-body">
                         <a class="btn btn-dark" href="{{ route('questions.create', $questionnaire->id) }}">Add new Question</a>
-                        <a class="btn btn-dark" href="/questionnaires/{{$questionnaire->id}}/questions/create">+++</a>
                         <a class="btn btn-dark" href="{{ route('surveys.show',[$questionnaire->id,Str::slug($questionnaire->title)]) }}">Take Survey</a>
-                        <a class="btn btn-dark" href="/surveys/{{$questionnaire->id}}-{{ Str::slug($questionnaire->title) }}">Take Survey</a>
                     </div>
                 </div>
 
@@ -31,7 +29,9 @@
                             </ul>
                         </div>
                         <div class="card-footer">
-                            <form action="{{ $questionnaire->path() }}/questions/{{$question->id}}" method="post">
+
+                            <form action="{{ route('questions.delete',[$questionnaire->id,$question->id]) }}" method="post">
+
                                 @method('DELETE')
                                 @csrf
                                 <button type="submit" class="btn btn-sm btn-outline-danger">Delete Question</button>
