@@ -6,7 +6,7 @@
             <div class="col-md-8">
 
                 <h1>{{$questionnaire->title}}</h1>
-                
+
                 <form action="{{ route('surveys.store',[$questionnaire->id,Str::slug($questionnaire->title)]) }}" method="post">
                     @csrf
 
