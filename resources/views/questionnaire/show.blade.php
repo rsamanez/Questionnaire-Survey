@@ -8,7 +8,9 @@
                     <div class="card-header">{{ $questionnaire->title }}</div>
 
                     <div class="card-body">
-                        <a class="btn btn-dark" href="/questionnaires/{{$questionnaire->id}}/questions/create">Add new Question</a>
+                        <a class="btn btn-dark" href="{{ route('questions.create', $questionnaire->id) }}">Add new Question</a>
+                        <a class="btn btn-dark" href="/questionnaires/{{$questionnaire->id}}/questions/create">+++</a>
+                        <a class="btn btn-dark" href="{{ route('surveys.show',[$questionnaire->id,Str::slug($questionnaire->title)]) }}">Take Survey</a>
                         <a class="btn btn-dark" href="/surveys/{{$questionnaire->id}}-{{ Str::slug($questionnaire->title) }}">Take Survey</a>
                     </div>
                 </div>

@@ -4,6 +4,8 @@
     <list default="true" id="dbc3a761-5c1d-4cbd-8f6e-2898ae5cb8b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/questionnaire/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/questionnaire/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/questionnaire/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/questionnaire/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +157,7 @@
       <updated>1583163659252</updated>
       <workItem from="1583163661433" duration="33522000" />
       <workItem from="1583434133259" duration="2711000" />
-      <workItem from="1583627864916" duration="1129000" />
+      <workItem from="1583627864916" duration="1968000" />
     </task>
     <servers />
   </component>

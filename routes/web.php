@@ -37,15 +37,15 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/questionnaires/create', 'QuestionnaireController@create')->name('questionnaire.create');
-Route::post('/questionnaires', 'QuestionnaireController@store');
+Route::get('/questionnaires/create', 'QuestionnaireController@create')->name('questionnaires.create');
+Route::post('/questionnaires', 'QuestionnaireController@store')->name('questionnaire.store');
 Route::get('/questionnaires/{questionnaire}', 'QuestionnaireController@show');
 
 
-Route::get('/questionnaires/{questionnaire}/questions/create', 'QuestionController@create');
+Route::get('/questionnaires/{questionnaire}/questions/create', 'QuestionController@create')->name('questions.create');
 Route::post('/questionnaires/{questionnaire}/questions', 'QuestionController@store');
 Route::delete('/questionnaires/{questionnaire}/questions/{question}', 'QuestionController@destroy');
 
-Route::get('/surveys/{questionnaire}-{slug}', 'SurveyController@show');
+Route::get('/surveys/{questionnaire}-{slug}', 'SurveyController@show')->name('surveys.show');
 Route::post('/surveys/{questionnaire}-{slug}', 'SurveyController@store');
 
