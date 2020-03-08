@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    <a href="/questionnaires/create" class="btn btn-dark">Create New Questionnaire</a>
+                    <a href="{{ route('questionnaire.create') }}" class="btn btn-dark">Create New Questionnaire</a>
                 </div>
             </div>
 
