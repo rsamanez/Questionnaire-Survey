@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dbc3a761-5c1d-4cbd-8f6e-2898ae5cb8b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +156,7 @@
       <workItem from="1583434133259" duration="2711000" />
       <workItem from="1583627864916" duration="6441000" />
       <workItem from="1583876838045" duration="385000" />
-      <workItem from="1584554336537" duration="378000" />
+      <workItem from="1584554336537" duration="601000" />
     </task>
     <servers />
   </component>
@@ -180,6 +180,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584554338390" />
+    <state x="796" y="412" width="683" height="486" key="find.popup" timestamp="1584555062077">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="796" y="412" width="683" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584555062077" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1583877982314">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
