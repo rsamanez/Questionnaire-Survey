@@ -10,7 +10,10 @@ class SurveyController extends Controller
     public function show(Questionnaire $questionnaire, $slug)
     {
         if (function_exists('newrelic_record_custom_event')) {
-            newrelic_record_custom_event("SurveyQS", array("color"=>"red", "weight"=>12.5));
+            newrelic_record_custom_event("Survey", array(
+                "name" => $questionnaire->title,
+                "id" => $questionnaire->id
+            ));
         }
         return view('survey.show', compact('questionnaire'));
     }
