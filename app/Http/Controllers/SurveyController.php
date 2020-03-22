@@ -33,3 +33,4 @@ class SurveyController extends Controller
         return view('survey.thanks');
     }
 }
+

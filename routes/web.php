@@ -22,6 +22,13 @@ Route::get('/email', function () {
     return new WelcomeMail();
 });
 
+$ip = request()->ip();
+if (function_exists('newrelic_record_custom_event')) {
+    newrelic_record_custom_event("ClientIP", array(
+        "ip" => $ip
+    ));
+}
+
 Route::get('/services', 'ServiceController@index');
 Route::post('/services', 'ServiceController@store');
 
